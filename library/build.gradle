@@ -26,3 +26,4 @@ dependencies {
 }
 
 apply from: 'publish_nexus.gradle'
+apply from: 'publish.gradle'
