@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="leo.android.cglib">
+    package="com.android.cglib">
 
     <application
         android:allowBackup="true"

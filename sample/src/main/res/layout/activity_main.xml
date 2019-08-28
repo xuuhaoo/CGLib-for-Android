@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="leo.android.cglib.sample.MainActivity">
+    tools:context="com.android.cglib.sample.MainActivity">
 
     <Button
         android:id="@+id/btn"
