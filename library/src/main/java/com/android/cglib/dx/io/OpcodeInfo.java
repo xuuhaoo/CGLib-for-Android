@@ -1369,13 +1369,7 @@ public final class OpcodeInfo {
         // This space intentionally left blank.
     }
 
-    /**
-     * Gets the {@link @Info} for the given opcode value.
-     *
-     * @param opcode {@code Opcodes.MIN_VALUE..Opcodes.MAX_VALUE;} the
-     * opcode value
-     * @return non-null; the associated opcode information instance
-     */
+
     public static Info get(int opcode) {
         int idx = opcode - Opcodes.MIN_VALUE;
 

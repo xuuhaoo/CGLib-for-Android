@@ -66,9 +66,6 @@ public final class MethodId<D, R> {
         return name.equals("<init>");
     }
 
-    /**
-     * Returns the method's name. This is "<init>" if this is a constructor.
-     */
     public String getName() {
         return name;
     }

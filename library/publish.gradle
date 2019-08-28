@@ -67,13 +67,13 @@ bintray {
         name = project.NAME
         licenses = ["Apache-2.0"]
         publish = true
-        description = "Android crash library"
+        description = "Android hook library"
         publicDownloadNumbers = true
-        vcsUrl = 'https://github.com/xuuhaoo/Crash'
+        vcsUrl = 'https://github.com/xuuhaoo/'
         dryRun = false
         version {
             name = project.VERSION
-            desc = "Android crash library"
+            desc = "Android hook library"
             released = new Date()
             vcsTag = project.VERSION
         }

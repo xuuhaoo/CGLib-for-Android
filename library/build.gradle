@@ -25,5 +25,4 @@ dependencies {
     api 'com.android.support:appcompat-v7:' + project.SUPPORT_LIBRARY_VERSION
 }
 
-apply from: 'publish_nexus.gradle'
 apply from: 'publish.gradle'

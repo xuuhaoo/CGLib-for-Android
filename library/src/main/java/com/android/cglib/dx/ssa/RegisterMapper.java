@@ -26,11 +26,7 @@ import com.android.cglib.dx.rop.code.RegisterSpecList;
  * instances of this class are passed.
  */
 public abstract class RegisterMapper {
-    /**
-     * Gets the count of registers (really, the total register width, since
-     * category width is counted) in the new namespace.
-     * @return >= 0 width of new namespace.
-     */
+
     public abstract int getNewRegisterCount();
 
     /**
