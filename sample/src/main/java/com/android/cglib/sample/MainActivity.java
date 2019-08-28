@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        printer = (Printer) new MyProxy(this).getProxy(Printer.class);
+        Printer cust = new Printer("傻逼傻逼");
+        printer = (Printer) new MyProxy(this, cust).getProxy(Printer.class);
 
         Button btn = (Button) super.findViewById(R.id.btn);
         btn.setOnClickListener(this);
