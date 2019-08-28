@@ -115,6 +115,9 @@ public class Enhancer {
 		boolean hasParams = false;
 		Class retClass = null;
 		for (Method method : methods) {
+//			if(method){
+//
+//			}
 			methodName = method.getName();
 			if (methodName.contains("$")) {  // Android studio will generate access$super method for every class
 				continue ;
